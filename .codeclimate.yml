@@ -5,3 +5,4 @@ plugins:
     config: tslint.json
 exclude_patterns:
   - node_modules
+  - dist

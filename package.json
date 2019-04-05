@@ -1,0 +1,35 @@
+{
+  "name": "codeclimate-tslint-sample",
+  "version": "0.1.0",
+  "description": "Bad code",
+  "scripts": {
+    "codelyzer": "tslint -c tslint.codelyzer.json src/codelyzer.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkqubo/codeclimate-tslint-sample.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "codeclimate",
+    "tslint"
+  ],
+  "author": "tkqubo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tkqubo/codeclimate-tslint-sample/issues"
+  },
+  "homepage": "https://github.com/tkqubo/codeclimate-tslint-sample#readme",
+  "dependencies": {
+    "@angular/common": "^7.2.12",
+    "@angular/compiler": "^7.2.12",
+    "@angular/core": "^7.2.12",
+    "@angular/platform-browser": "^7.2.12",
+    "@angular/platform-browser-dynamic": "^7.2.12",
+    "codelyzer": "^5.0.0",
+    "rxjs": "^6.4.0",
+    "tslint": "^5.15.0",
+    "tslint-angular": "^1.1.2",
+    "typescript": "^3.3.3333"
+  }
+}

@@ -104,6 +104,8 @@
     "prefer-promise-shorthand": true,
     "prefer-type-guard": true,
     "use-primitive-type": true,
-    "use-type-alias": true
+    "use-type-alias": true,
+
+    "jsx-alignment": true
   }
 }

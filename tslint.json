@@ -1,5 +1,5 @@
 {
-  "extends": ["tslint-sonarts", "codelyzer"],
+  "extends": ["tslint-sonarts", "codelyzer", "tslint-react"],
   "rules": {
     "component-class-suffix": true,
     "component-max-inline-declarations": true,
@@ -106,6 +106,8 @@
     "use-primitive-type": true,
     "use-type-alias": true,
 
-    "jsx-alignment": true
+    "jsx-alignment": true,
+    "jsx-curly-spacing": "never",
+    "jsx-wrap-multiline": true
   }
 }
